@@ -1,6 +1,6 @@
 # Vue Leaflet Ellipse
 
-An adapter for [Leaflet.Ellipse](https://github.com/jdfergason/Leaflet.Ellipse) to use with [vue-leaflet](https://github.com/vue-leaflet/vue-leaflet). Basically, adding ellipse functionality to leaflet.
+An addon for [Leaflet.Ellipse](https://github.com/jdfergason/Leaflet.Ellipse) to use with [vue-leaflet](https://github.com/vue-leaflet/vue-leaflet). Basically, adding ellipse functionality to leaflet.
 
 ## Installation
 
@@ -64,7 +64,7 @@ import LEllipse from "vue-leaflet-ellipse";
 
 NOTE: **Not** Typescript comptable since upstream dependency [vue-leaflet](https://github.com/vue-leaflet/vue-leaflet) is not, see https://github.com/vue-leaflet/vue-leaflet/issues/1.
 
-## Props
+### Props
 
 Base props inherited from circle, see [base leaflet docs](https://leafletjs.com/reference.html#circle) and [vue2 leaflet docs](https://vue2-leaflet.netlify.app/components/LCircle.html).
 
@@ -76,41 +76,38 @@ Base props inherited from circle, see [base leaflet docs](https://leafletjs.com/
 <td>
 
 `lat-lng`
-
 </td>
 <td> latitude and longitude of center point </td>
 <td>
 
 ```js
-[Number, Number];
+[Number, Number]
 ```
-
 </td>
 <td>
 
 `True`
-
 </td>
+<td> n/a </td>
 </tr>
 <tr>
 <td>
 
 `radius`
-
 </td>
 <td> radii of semi-major and semi-minor axis </td>
 <td>
 
 ```js
-[Number, Number];
+[Number, Number]
 ```
-
 </td>
 <td>
 
 `True`
 
 </td>
+<td> n/a </td>
 </tr>
 <tr>
 <td>
@@ -122,19 +119,22 @@ Base props inherited from circle, see [base leaflet docs](https://leafletjs.com/
 <td>
 
 ```js
-Number;
+Number
 ```
-
 </td>
 <td>
 
 `False`
-
 </td>
 <td>
 
 `0`
-
 </td>
 </tr>
 </table>
+
+### SSR
+
+This addon is **not** SSR compatible, this may change in the future. This means that if you are before version [`0.8.4`](https://github.com/vue-leaflet/vue-leaflet/releases/tag/v0.8.4) then you need to set `:use-global-leaflet="true"` in `LMap`, see [vue-leaflet/`b08f533`](https://github.com/vue-leaflet/vue-leaflet/commit/b08f533ccfe58b72c0c10afef5469ea7cbd5fead).
+
+
