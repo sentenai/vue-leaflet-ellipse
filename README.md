@@ -2,6 +2,22 @@
 
 An addon for [Leaflet.Ellipse](https://github.com/jdfergason/Leaflet.Ellipse) to use with [vue-leaflet](https://github.com/vue-leaflet/vue-leaflet). Basically, adding ellipse functionality to leaflet.
 
+<p align="center">
+	<a href="https://www.npmjs.com/package/vue-leaflet-ellipse">
+    <img alt="npm" src="https://img.shields.io/npm/v/vue-leaflet-ellipse?style=flat-square">
+	</a>
+  <a href="https://github.com/sentenai/vue-leaflet-ellipse">
+    <img alt="GitHub" src="https://img.shields.io/github/license/sentenai/vue-leaflet-ellipse?style=flat-square">
+	</a>
+	<a href="https://github.com/semantic-release/semantic-release">
+    <img alt="semantic release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square">
+	</a>
+	<a href="https://gitmoji.dev">
+		<img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square"
+			 alt="Gitmoji">
+	</a>
+</p>
+
 ## Installation
 
 ```bash
@@ -136,5 +152,3 @@ Number
 ### SSR
 
 This addon is **not** SSR compatible, this may change in the future. This means that if you are before version [`0.8.4`](https://github.com/vue-leaflet/vue-leaflet/releases/tag/v0.8.4) then you need to set `:use-global-leaflet="true"` in `LMap`, see [vue-leaflet/`b08f533`](https://github.com/vue-leaflet/vue-leaflet/commit/b08f533ccfe58b72c0c10afef5469ea7cbd5fead).
-
-
