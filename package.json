@@ -1,8 +1,7 @@
 {
   "name": "vue-leaflet-ellipse",
   "version": "1.0.1",
-  "description": "Vue Leaflet Ellipse plugin",
-  "private": true,
+  "description": "Vue Leaflet Ellipse addon",
   "files": [
     "dist"
   ],
@@ -26,7 +25,7 @@
   },
   "keywords": [],
   "author": "4very",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "@vue-leaflet/vue-leaflet": "^0.8.4",
     "vue": "^3.2.47"
