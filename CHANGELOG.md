@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/sentenai/vue-leaflet-ellipse/compare/v1.0.2...v1.0.3) (2023-07-10)
+
+
+### 🎨 Aesthetic Changes
+
+* **readme:** :pencil: added readme badges ([2ca01c7](https://github.com/sentenai/vue-leaflet-ellipse/commit/2ca01c76d2f54a3e12aaaa84f5930f18dd475503))
+
+
+### 🐛 Bug fixes
+
+* **dep:** :ambulance: bumped vite version ([1ac299c](https://github.com/sentenai/vue-leaflet-ellipse/commit/1ac299ca8f31bb48e7ad60c828d36ca262839c7d))
+
 ## [1.0.2](https://github.com/sentenai/vue-leaflet-ellipse/compare/v1.0.1...v1.0.2) (2023-02-24)
 
 
